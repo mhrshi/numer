@@ -1,0 +1,230 @@
+<resources>
+    <!-- App name -->
+
+    <string name="app_name">Numerical Methods</string>
+    <string name="action_changelog">Changelog</string>
+    <string name="action_FAQ">FAQ</string>
+    <string name="action_about">About</string>
+
+    <!-- Methods List -->
+
+    <string name="title_bisection">Bisection</string>
+    <string name="title_newton_raphson">Newton-Raphson</string>
+    <string name="title_regula_falsi">Regula-Falsi</string>
+    <string name="inputs_single_equation">Inputs required\n\u2022 Function\n\u2022 Initial interval\n\u2022 Precision</string>
+
+    <string name="title_gauss_jacobi">Gauss-Jacobi</string>
+    <string name="title_gauss_seidel">Gauss-Seidel</string>
+    <string name="inputs_system_of_equations">Inputs required\n\u2022 System of 3 linear equations\n\u2022 Precision</string>
+
+    <string name="title_power">Power</string>
+    <string name="subtitle_power">Method for Dominant Eigen Value</string>
+    <string name="inputs_power">Inputs required\n\u2022 Square matrix\n\u2022 Precision</string>
+
+    <string name="title_euler">Euler</string>
+    <string name="title_heun">Heun</string>
+    <string name="title_runge_kutta">Runge-Kutta</string>
+    <string name="subtitle_runge_kutta">Method of 4th Order</string>
+    <string name="inputs_ordinary_differential_equation">Inputs required\n\u2022 Ordinary differential equation\n\u2022 Initial values\n\u2022 Step size\n\u2022 Value of <b>x</b> to find <b>y</b> at\n\u2022 Precision</string>
+
+    <string name="subtitle_method">Method</string>
+
+    <string name="title_newton">Newton</string>
+    <string name="subtitle_newton">Forward/Backward Interpolation (Equidistant)</string>
+
+    <string name="title_stirling">Stirling</string>
+    <string name="subtitle_stirling">Interpolation (Equidistant)</string>
+
+    <string name="title_lagrange">Lagrange</string>
+    <string name="subtitle_lagrange">Interpolation (Non-Equidistant)</string>
+
+    <string name="title_newton_dd">Newton</string>
+    <string name="subtitle_newton_dd">Divided Difference (Non-Equidistant)</string>
+
+    <string name="inputs_interpolation">Inputs required\n\u2022 x\u1D62 values\n\u2022 y\u1D62 values\n\u2022 Value to interpolate at</string>
+
+    <string name="title_integration">Integration</string>
+    <string name="subtitle_integration">Methods</string>
+    <string name="inputs_integration">Inputs required\n\u2022 Function to integrate\n\u2022 Integration limits\n\u2022 Number of steps</string>
+
+    <string name="title_differentiation">Differentiation</string>
+    <string name="subtitle_differentiation">Methods</string>
+    <string name="inputs_differentiation">Inputs required\n\u2022 x\u1D62 values\n\u2022 y\u1D62 values\n\u2022 Value to differentiate at</string>
+
+    <!-- Common to all input activities -->
+
+    <string name="syntax_tip_precision">Tip\n\u2022 Integer between 2 &amp; 5</string>
+    <string name="jump_to_faq">jump to faq</string>
+    <string name="input_precision_hint">Precision</string>
+    <string name="button_calculate">Calculate!</string>
+
+    <!-- Single equation input activity -->
+
+    <string name="syntax_tip_function">Tips\n\u2022 Function\'s variable must be <b>x</b>\n\u2022 Use brackets to separate terms</string>
+    <string name="syntax_tip_interval">Tip\n\u2022 Comma separated interval endpoints</string>
+    <string name="input_function_hint">Function</string>
+    <string name="input_function_label">f(x) = </string>
+    <string name="input_interval_hint">LEP, REP</string>
+
+    <string name="switch_reciprocal">Reciprocal</string>
+    <string name="syntax_tip_reciprocal_of">Tip\n\u2022 The number you want to find reciprocal of</string>
+    <string name="input_reciprocal_of_hint">Reciprocal of</string>
+    <string name="syntax_tip_reciprocal_initial_approximation">Tips\n\u2022 Must be very near to correct answer\n\u2022 Example: <i>0.01</i>, if correct answer is 0.01449</string>
+    <string name="input_reciprocal_initial_approximation_hint">Initial approximation</string>
+    <string name="syntax_tip_reciprocal_precision">Tip\n\u2022 Integer between 3 &amp; 9</string>
+
+    <!-- System of equations' input activity -->
+
+    <string name="syntax_tip_system_matrix">Tips\n\u2022 Separate elements in a row by space\n\u2022 Next row on new line</string>
+    <string name="edit_text_system_matrix">System matrix (3x4)</string>
+
+    <!-- Power input activity -->
+
+    <string name="syntax_tip_matrix">Tips\n\u2022 Separate elements in a row by space\n\u2022 Next row on new line</string>
+    <string name="edit_text_matrix_hint">Matrix (2x2 or 3x3)</string>
+    <string name="edit_text_matrix_label">Matrix</string>
+
+    <!-- Ordinary differential equation input activity -->
+
+    <string name="syntax_tip_ode_function">Tips\n\u2022 Function\'s variables must be <b>x</b> &amp; <b>y</b>\n\u2022 Use brackets to separate terms</string>
+    <string name="syntax_tip_ode_initial_values">Tip\n\u2022 Comma separated coordinate values</string>
+    <string name="syntax_tip_ode_step_size_x">Tip\n\u2022 Separate by <b>-></b> (tends to)</string>
+    <string name="edit_text_ode_function_hint">Function</string>
+    <string name="edit_text_ode_function_label">dy/dx =</string>
+    <string name="edit_text_ode_initial_value">x\u2080, y\u2080</string>
+    <string name="edit_text_ode_step_size_x">Step size -> x</string>
+
+    <!-- Interpolation input activity -->
+
+    <string name="syntax_tip_x_values">Tip\n\u2022 Space separated x\u1D62 values</string>
+    <string name="syntax_tip_y_values">Tip\n\u2022 Space separated y\u1D62 values</string>
+    <string name="syntax_tip_y_at_x">Tip\n\u2022 Value to interpolate at</string>
+
+    <string name="switch_forward">Forward Interpolation</string>
+    <string name="switch_backward">Backward Interpolation</string>
+
+    <string name="input_x_values_hint">x\u1D62 values</string>
+    <string name="input_x_values_label">x\u1D62</string>
+    <string name="input_y_values_hint">y\u1D62 values</string>
+    <string name="input_y_values_label">y\u1D62</string>
+    <string name="input_y_at_x_hint">Interpolate at x = </string>
+
+    <!-- Integration input activity -->
+
+    <string name="syntax_tip_integration_limits">Tips\n\u2022 Steps (integer)\n\u2022 Integration limits\n\u2022 Syntax: <b>n, a -> b</b></string>
+
+    <string name="switch_function">Function</string>
+    <string name="switch_tabulated_values">Tabulated values</string>
+
+    <string name="radio_trapezoidal">Trapezoidal Rule</string>
+    <string name="radio_s1by3">Simpson\'s \u2153 Rule</string>
+    <string name="radio_s3by8">Simpson\'s \u215C Rule</string>
+
+    <string name="edit_text_integration_function_hint">Function to integrate</string>
+    <string name="edit_text_integration_function_label">f(x) =</string>
+    <string name="edit_text_integration_limits_hint">Steps, Lower limit -> Upper limit</string>
+    <string name="edit_text_integration_limits_label">n, a -> b</string>
+
+    <!-- Differentiation input activity -->
+
+    <string name="syntax_tip_differentiate_at">Tip\n\u2022 Value to differentiate at</string>
+
+    <string name="switch_differentiation_forward">Newton Forward</string>
+    <string name="switch_differentiation_backward">Newton Backward</string>
+
+    <string name="input_differentiate_at_hint">Differentiate at x =</string>
+
+    <!-- Newton-Raphson output activity -->
+
+    <string name="reciprocal_snackbar">Finding reciprocal? Please use the switch provided at input :)</string>
+
+    <!-- Common to all output activities -->
+
+    <string name="error">Answer did not converge at given precision</string>
+
+    <!-- FAQ -->
+
+    <string name="function_faq_title">Why does the function input say invalid syntax?</string>
+    <string name="function_faq_line1">The variable must be as said in the tip/hint/label</string>
+    <string name="function_faq_line2">There is <b>NO</b> implicit multiplication. Writing like \"2x\" or \"(x)(y)\" will not work. Use asterisks (*) wherever needed</string>
+    <string name="function_faq_line3">Wrap terms in brackets and use as many brackets as you can inside terms</string>
+    <string name="function_faq_line4">Value passed into trigonometric or logarithmic functions must be wrapped in brackets</string>
+    <string name="function_faq_line5">Constants:\nEuler\'s number: <b>e</b>\nPi: <b>pi</b></string>
+    <string name="function_faq_line6">Functions:\nTrigonometric: as they are\nLogarithmic:\nNatural log (base e): <b>ln(x)</b>\nCommon log (base 10): <b>log10(x)</b></string>
+    <string name="function_faq_line7">Examples:\n(3*x)-(2*y)+5\n(e^x)-(x)*(cos(x))\n(2*(e^pi))-4</string>
+    <string name="precision_faq_title">How does precision work?</string>
+    <string name="precision_faq_content">The calculations will be shown with <i>input value + 1</i> digits after decimal point. Final answer will be considered when after decimal point, <i>input value</i> digits are same. If you don\'t get any of this, just input whatever precision is given in question.</string>
+    <string name="convergence_faq_title"><i>Answer did not converge at given precision.</i> What?</string>
+    <string name="convergence_faq_content">If you just saw this, there are two possible reasons:
+        \n1. The values that were being calculated at every iteration didn\'t converge at all, or
+        \n2. It may happen that, after certain iterations, the values keep re-appearing at every second step
+        \nIn both cases, a maximum of 50 iterations will be displayed.
+        \nIf 2nd case, try some other precision value.
+        \nIf 1st case, check whether your inputs are correct and the root really lies in given interval.</string>
+    <string name="matrix_faq_title">How to input a matrix?</string>
+    <string name="matrix_faq_content">Just like you do on paper. Separate elements in a row by spaces, and next row goes on new line. Make sure there are no trailing spaces/newlines at the end of row/input.</string>
+    <string name="system_of_eq_title">How to input system of equations?</string>
+    <string name="system_of_eq_content">You don\'t need to type the variables of system. The input is a 3x4 matrix of 3 coefficients (and the RHS constant) where each row accounts for an equation.</string>
+    <string name="rk_faq_title">Which Runge-Kutta method is used in this app?</string>
+    <string name="rk_faq_content">Doing a quick Google search results in various methods, so the one used in this app can be viewed at <a href="http://telegra.ph/Numerical-Methods-Guide-02-17">Info</a> page.</string>
+    <string name="greet">You can find correctly working inputs at <a href="http://telegra.ph/Numerical-Methods-Guide-02-17">Info</a> page. For any and all bug-reports or suggestions, contact me from the About section.\nThank you for using this app :)</string>
+
+    <string name="dev_name">Maharshi Bhavsar</string>
+    <string name="app_version">zeropointnine RC</string>
+    <string name="version_changelog">
+        \u2022  Added whole bunch of methods
+        \n\u2022  Removed the <i>run method</i> buttons, cards themselves are clickable now
+        \n\u2022  Stopped keyboard from auto-opening when a method is opened
+        \n\u2022  Close keyboard when enter is pressed after last input of any method
+    </string>
+    <string name="changelog_noice">NOICE!</string>
+    <string name="telegram_channel"><a href="https://t.me/joinchat/AAAAAEeVCI1enWMzlK_eMw">Telegram Channel</a></string>
+    <string name="licenses">Open Source Licenses</string>
+    <string name="materialedittext"><b>\u2022 MaterialEditText</b></string>
+    <string name="materialedittext_content">
+        Copyright 2014 rengwuxian
+        \nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+        \n\n<u>http://www.apache.org/licenses/LICENSE-2.0</u>
+        \n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+    </string>
+    <string name="cafebar"><b>\u2022 Cafebar</b></string>
+    <string name="cafebar_content">
+        Copyright © 2017 Dani Mahardhika
+        \nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+        \n\n<u>http://www.apache.org/licenses/LICENSE-2.0</u>
+        \n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+    </string>
+    <string name="taptargetview"><b>\u2022 TapTargetView</b></string>
+    <string name="taptargetview_content">
+        Copyright 2016 Keepsafe Software Inc.
+        \nLicensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+        \n\n<u>http://www.apache.org/licenses/LICENSE-2.0</u>
+        \n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+    </string>
+    <string name="circularimageview"><b>\u2022 CircularImageView</b></string>
+    <string name="circularimageview_content">
+        The MIT License (MIT)
+        \nCopyright © 2015 Mikhael LOPEZ
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        \nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        \nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </string>
+    <string name="materialdialogs"><b>\u2022 MaterialDialogs</b></string>
+    <string name="materialdialogs_content">
+        The MIT License (MIT)
+        \nCopyright © 2014-2016 Aidan Michael Follestad
+        \nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        \nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        \nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </string>
+    <string name="mxparser"><b>\u2022 mXparser</b></string>
+    <string name="mxparser_content">
+        BSD 2-Clause License
+        \nCopyright © 2017, Mariusz Gromada
+        \nAll rights reserved.
+        \nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+        \n* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+        \n* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+        \nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+    </string>
+</resources>

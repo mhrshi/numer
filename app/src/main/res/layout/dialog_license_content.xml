@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/materialedittext"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/materialedittext_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/cafebar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/cafebar_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/taptargetview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/taptargetview_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/circularimageview"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/circularimageview_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/materialdialogs"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/materialdialogs_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/mxparser"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textColor="#37474F"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="@string/mxparser_content"
+        android:textColor="#37474F"
+        android:lineSpacingMultiplier="1.1"/>
+
+</LinearLayout>

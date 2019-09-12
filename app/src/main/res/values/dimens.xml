@@ -1,0 +1,4 @@
+<resources>
+	<dimen name="chip_text_size">6sp</dimen>
+	<dimen name="table_cell_text_size">2.8sp</dimen>
+</resources>
